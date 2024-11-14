@@ -1,0 +1,12 @@
+.student_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 370px);
+    gap: 20px;
+}
+
+@media  (max-width: 1200px) {
+    .students_grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
